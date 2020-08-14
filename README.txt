@@ -1,4 +1,4 @@
-Download all the files and make it as a single new folder.
+Download all the files and make it as a single new folder(cms).
 Paste it inside the root directory(for xampp xampp/htdocs, for wamp wamp/www, for lamp var/www/html)
 Open PHPMyAdmin (http://localhost/phpmyadmin)
 Create a database with name cms
@@ -12,5 +12,5 @@ under cms database,create the following tables with these names
 6)user_post(user_id int primarykey, post_id int primarykey foreignkey(post_id in post table))
 
 Fill some data in the tables according to the datatype.
-Run the script http://localhost/loginsystem (frontend) and enter the already filled credentials.
+Run the script http://localhost/cms (frontend) and enter the already filled credentials.
 After that you will enter the index page. From there you can perform all operations.
